@@ -1,3 +1,6 @@
-# EAID
+# Sample Node JS code to generate EAIDs
 
-* Usage: node index.js > eaid.csv
+## Usage
+```
+Usage: node index.js > filename.csv
+```
