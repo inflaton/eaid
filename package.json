@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "sample Node JS code to generate EAIDs",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "node index.js",
-    "test": "jest",
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest --coverage",
     "lint": "eslint index.js lib"
   },
   "engines": {
