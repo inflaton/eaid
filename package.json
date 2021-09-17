@@ -7,7 +7,9 @@
   "scripts": {
     "start": "node index.js",
     "test": "NODE_OPTIONS=--experimental-vm-modules jest --coverage",
-    "lint": "eslint index.js lib"
+    "lint": "eslint --cache '{**/*,*}.js'",
+    "lint-fix": "eslint --cache --fix '{**/*,*}.js'",
+    "prettier": "prettier --write '{**/*,*}.js'"
   },
   "engines": {
     "node": "14.x"
